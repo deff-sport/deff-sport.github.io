@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact • Deff | Sport</title>
+  <meta name="description" content="ActiveZone — Musculation, fitness, boxe, gym et vente de produits. Votre salle de sport à Rufisque (Zac Mbao, rond-point Sipress)."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="icon" href="https://tse1.mm.bing.net/th/id/OIP.4mYOa9IopghTADRN9pmZHwHaE8?rs=1&pid=ImgDetMain&o=7&rm=3">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html" aria-label="Deff Sport Accueil">
+        <img src="img/logo.png" alt="Logo Deff Sport"/>
+        <span class="name"><b>Deff Sport</b><span style="margin-top: 5px;">Force • Santé • Communauté</span></span>
+      </a>
+      <nav>
+        <button class="menu-toggle" aria-label="Menu" onclick="toggleMenu()">☰</button>
+        <div id="navlinks" class="navlinks">
+          <a href="index.html" class="">Accueil</a>
+          <a href="about.html" class="">À propos</a>
+          <a href="contact.html" class="active">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== Section Contact simplifiée ===== -->
+  <section class="section contact-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2>Nous contacter</h2>
+        <p>Une question ? Une inscription ? Remplis le formulaire ci-dessous — on te répond rapidement.</p>
+      </div>
+
+      <div class="card reveal" style="max-width:600px; margin:0 auto;">
+        <div class="body">
+          <h3>Formulaire d'inscription</h3>
+          <form id="contactForm">
+            <div style="display:grid; gap:.7rem;">
+              <input required type="text" id="name" placeholder="Nom complet"/>
+              <input required type="email" id="email" placeholder="Email"/>
+              <input type="tel" id="phone" placeholder="Téléphone (optionnel)"/>
+              <select id="objective" required>
+                <option value="">Objectif</option>
+                <option>Perte de poids</option>
+                <option>Prise de masse</option>
+                <option>Remise en forme</option>
+                <option>Performance</option>
+                <option>Boxe</option>
+              </select>
+              <textarea id="message" rows="4" placeholder="Ton message (facultatif)"></textarea>
+              <button class="btn" type="submit">Envoyer</button>
+              <p id="formStatus" class="small" role="status" aria-live="polite"></p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer>
+    <div class="container">
+      <div class="grid">
+        <div class="card" style="grid-column: span 6;">
+          <div class="body">
+            <h3>Heures d'ouverture</h3>
+            <p class="small">Lun–Sam : 6h–22h • Dim : 8h–20h</p>
+            <!-- <span class="badge">Couleurs officielles : #e09200 & #1f1c17</span> -->
+          </div>
+        </div>
+        <div class="card" style="grid-column: span 6;">
+          <div class="body">
+            <h3>Nous suivre</h3>
+            <p class="small"><a href="https://www.instagram.com/complexe_deff_sports/" target="_blank" rel="noopener">Instagram Deff sport </a></p>
+            <p class="small">Contact : <a href="#">76 276 12 12</a></p>
+            <p class="small">Adresse : Rufisque, Zac Mbao, rond-point Sipres</p>
+          </div>
+        </div>
+      </div>
+      <p class="small" style="margin-top:1rem;">© <span id="year"></span> Deff | Sport — Tous droits réservés.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

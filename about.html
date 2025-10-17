@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>À propos • Deff | Sport</title>
+  <meta name="description" content="Deff Sport — Musculation, fitness, boxe, gym et vente de produits. Votre salle de sport à Rufisque (Zac Mbao, rond-point Sipress)."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="icon" href="https://tse1.mm.bing.net/th/id/OIP.4mYOa9IopghTADRN9pmZHwHaE8?rs=1&pid=ImgDetMain&o=7&rm=3">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html" aria-label="Deff Sport Accueil">
+        <img src="img/logo.png" alt="Logo Deff Sport"/>
+        <span class="name"><b>Deff Sport</b><span style="margin-top: 5px;">Force • Santé • Communauté</span></span>
+      </a>
+      <nav>
+        <button class="menu-toggle" aria-label="Menu" onclick="toggleMenu()">☰</button>
+        <div id="navlinks" class="navlinks">
+          <a href="index.html" class="">Accueil</a>
+          <a href="about.html" class="active">À propos</a>
+          <a href="contact.html" class="">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal ">
+        <h2>Notre histoire</h2>
+        <p>Deff Sport est née d'une passion : rendre l'entraînement de qualité accessible à tous à Rufisque.</p>
+      </div>
+
+      <div class="features">
+        <div class="feature reveal orange">
+          
+          <h3>Notre mission</h3>
+          <p>Accompagner chaque personne vers ses objectifs — force, santé, confiance — avec méthode et bienveillance.</p>
+        </div>
+        <div class="feature reveal orange">
+          <h3>Nos valeurs</h3>
+          <p>Discipline, respect, sécurité et progression mesurable.</p>
+        </div>
+        <div class="feature reveal orange">
+          <h3>Nos espaces</h3>
+          <p>Zone musculation, ring de boxe, studio fitness, espace cardio et boutique de nutrition.</p>
+        </div>
+      </div>
+
+      <div class="section-header reveal" style="margin-top:2rem;">
+        <h2>L'équipe</h2>
+        <p>Des coachs certifiés et une équipe de vente à l'écoute.</p>
+      </div>
+
+      <div class="grid">
+        <div class="card reveal orange">
+          <div class="thumb"></div>
+          <div class="body">
+            <div class="team-member-header" style="display: flex; align-items: center; gap: 1rem;">
+              <div class="thumb" style="width: 20% ; border: 2px solid var(--primary); border-radius: 50px ; overflow: hidden;">
+                <img src="img/muscul.jpg" alt="Coach Demba" style="width:100%; height:60px; object-fit: cover;"/>
+              </div>
+              <h3>Coach Demba</h3>
+            </div>
+            
+            <p>Spécialiste fitness & HIIT — séances dynamiques et fun.</p>
+          </div>
+        </div>
+        <div class="card reveal orange" >
+          <div class="thumb"></div>
+          <div class="body">
+            <div class="team-member-header" style="display: flex; align-items: center; gap: 1rem;">
+              <div class="thumb" style="width: 20% ; border: 2px solid var(--primary); border-radius: 50px ; overflow: hidden;">
+                <img src="img/muscul.jpg" alt="Coach Moussa" style="width:100%; height:60px; object-fit: cover;"/>
+              </div>
+              <h3>Coach Moussa</h3>
+            </div>
+            <p>Musculation & performance — planification et suivi technique.</p>
+          </div>
+        </div>
+        <div class="card reveal orange">
+          <div class="thumb"></div>
+          <div class="body">
+            <div class="team-member-header" style="display: flex; align-items: center; gap: 1rem;">
+              <div class="thumb" style="width: 20% ; border: 2px solid var(--primary); border-radius: 50px ; overflow: hidden;">
+                <img src="img/muscul.jpg" alt="Coach Awa" style="width:100%; height:60px; object-fit: cover;"/>
+              </div>
+              <h3>Coach Awa</h3>
+            </div>
+            <p>Boxe — technique, cardio et dépassement de soi en sécurité.</p>
+          </div>
+        </div>
+        <div class="card reveal orange">
+          <div class="thumb"></div>
+          <div class="body">
+            <div class="team-member-header" style="display: flex; align-items: center; gap: 1rem;">
+              <div class="thumb" style="width: 20% ; border: 2px solid var(--primary); border-radius: 50px ; overflow: hidden;">
+                <img src="img/muscul.jpg" alt="Conseiller Nutrition" style="width:100%; height:60px; object-fit: cover;"/>
+              </div>
+              <h3>Accueil Khady</h3>
+            </div>
+            <p>Conseils nutrition & accessoires — la bonne recommandation au bon moment.</p>
+          </div>
+        </div>
+        <div class="card reveal orange">
+          <div class="thumb"></div>
+          <div class="body">
+            <div class="team-member-header" style="display: flex; align-items: center; gap: 1rem;">
+              <div class="thumb" style="width: 20% ; border: 2px solid var(--primary); border-radius: 50px ; overflow: hidden;">
+                <img src="img/muscul.jpg" alt="Accueil & Boutique" style="width:100%; height:60px; object-fit: cover;"/>
+              </div>
+              <h3>Accueil Fatou</h3>
+            </div>
+            <p>Accueil & boutique — toujours un sourire et une solution.</p>
+          </div>
+        </div>
+        <div class="card revealor orange">
+          <div class="thumb"></div>
+          <div class="body">
+            <h3>Support équipe</h3>
+            <p>Réservations, événements et partenariats locaux.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-header reveal" style="margin-top:2rem;">
+        <h2>Pourquoi nous choisir ?</h2>
+        <p>Programmation claire, matériel suivi, communauté motivante et résultats mesurables.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="grid">
+        <div class="card" style="grid-column: span 6;">
+          <div class="body">
+            <h3>Heures d'ouverture</h3>
+            <p class="small">Lun–Sam : 6h–22h • Dim : 8h–20h</p>
+            <!-- <span class="badge">Couleurs officielles : #e09200 & #1f1c17</span> -->
+          </div>
+        </div>
+        <div class="card" style="grid-column: span 6;">
+          <div class="body">
+            <h3>Nous suivre</h3>
+            <p class="small"><a href="https://www.instagram.com/complexe_deff_sports/" target="_blank" rel="noopener">Instagram Deff sport </a></p>
+            <p class="small">Contact : <a href="#">76 276 12 12</a></p>
+            <p class="small">Adresse : Rufisque, Zac Mbao, rond-point Sipres</p>
+          </div>
+        </div>
+      </div>
+      <p class="small" style="margin-top:1rem;">© <span id="year"></span> Deff | Sport — Tous droits réservés.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

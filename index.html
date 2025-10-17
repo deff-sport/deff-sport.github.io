@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Accueil • Deff | Sport </title>
+  <meta name="description" content=" — Musculation, fitness, boxe, gym et vente de produits. Votre salle de sport à Rufisque (Zac Mbao, rond-point Sipress)."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="icon" href="https://tse1.mm.bing.net/th/id/OIP.4mYOa9IopghTADRN9pmZHwHaE8?rs=1&pid=ImgDetMain&o=7&rm=3">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html" aria-label="Deff Sport Accueil">
+        <img src="img/logo.png" alt="Logo Deff Sport"/>
+        <span class="name"><b>Deff Sport</b><span style="margin-top: 3px;">Force • Santé • Communauté</span></span>
+      </a>
+      <nav>
+        <button class="menu-toggle" aria-label="Menu" onclick="toggleMenu()">☰</button>
+        <div id="navlinks" class="navlinks">
+          <a href="index.html" class="active">Accueil</a>
+          <a href="about.html" class="">À propos</a>
+          <a href="contact.html" class="">Contact</a>
+        </div>
+      </nav> 
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container content reveal visible">
+      <span class="badge">Rufisque • Zac Mbao • Rond-point Sipres</span>
+      <h1>Une meilleur version de vous!</h1>
+      <p>Musculation, fitness, boxe, gym et produits de nutrition.</p>
+      <div style="display:flex; gap:.7rem; justify-content:center; flex-wrap:wrap;">
+        <a href="contact.html" class="btn">S'inscrire maintenant</a>
+        <a href="#services" class="btn ghost">Découvrir nos services</a>
+      </div>
+    </div>
+  </section>
+   <!-- keywords: fitness, musculation, salle de sport, boxe, gym, vente de produits, location de matériel, coaching sportif, Rufisque, Zac Mbao, rond-point Sipres -->
+  <!-- NOUVELLE SECTION: Pourquoi nous choisir -->
+  <section id="why-us" class="section" style="background-image: linear-gradient(to top , #0000005b , #3d25012b);">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2>Pourquoi Deff Sport ?</h2>
+        <p>L'excellence au service de votre transformation</p>
+      </div>
+      <div class="grid">
+        <div class="feature-card reveal">
+          <div class="feature-icon">
+            <i class="fas fa-dumbbell"></i>
+          </div>
+          <h3>Équipements Professionnels</h3>
+          <p>Matériel de haute qualité, régulièrement entretenu et renouvelé pour des performances optimales.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon">
+            <i class="fas fa-users"></i>
+          </div>
+          <h3>Communauté Motivante</h3>
+          <p>Rejoignez une communauté soudée qui vous poussera à donner le meilleur de vous-même chaque jour.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon">
+            <i class="fas fa-clock"></i>
+          </div>
+          <h3>Horaires Étendus</h3>
+          <p>Ouvert 7j/7 avec des horaires adaptés à votre emploi du temps, même le dimanche.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon">
+            <i class="fas fa-trophy"></i>
+          </div>
+          <h3>Résultats Garantis</h3>
+          <p>Notre méthode éprouvée garantit des résultats visibles dans les premiers mois d'entraînement.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2>Nos services</h2>
+        <p>Coaching, accompagnement et matériel de qualité, dans une ambiance motivante.</p>
+      </div>
+      <div class="grid">
+        <div class="card reveal">
+          <div class="muscu"></div>
+          <div class="body">
+            <h3>Musculation</h3>
+            <p>Programme progressif, charges libres et machines guidées pour la force et l'hypertrophie.</p>
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="fit"></div>
+          <div class="body">
+            <h3>Fitness</h3>
+            <p>Cardio training, HIIT et cours collectifs pour brûler des calories et booster l'endurance.</p>
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="boxe"></div>
+          <div class="body">
+            <h3>Boxe</h3>
+            <p>Techniques, sparring sécurisé et conditionnement — idéal pour la discipline et l'agilité.</p>
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="gym"></div>
+          <div class="body">
+            <h3>Gym</h3>
+            <p>Mobilité, renforcement du tronc et posture. Parfait pour débuter ou reprendre en douceur.</p>
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="prod"></div>
+          <div class="body">
+            <h3>Vente de produits</h3>
+            <p>Créatine, protéines, accessoires — tout pour soutenir tes objectifs.</p>
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="loc"></div>
+          <div class="body">
+            <h3>Location de matériel</h3>
+            <p>Des equipements personnalisés pour des séances sur-mesure.</p>
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="lava"></div>
+          <div class="body">
+            <h3>Deff Auto </h3>
+            <p>Deff Sport, c'est aussi un service de lavage performant au rez-de-chaussée.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- NOUVELLE SECTION: Stats -->
+  <section class="stats-section">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item reveal">
+          <div class="stat-number" data-count="500">0</div>
+          <div class="stat-label">Membres Actifs</div>
+        </div>
+        <div class="stat-item reveal">
+          <div class="stat-number" data-count="50">0</div>
+          <div class="stat-label">Équipements</div>
+        </div>
+        <div class="stat-item reveal">
+          <div class="stat-number" data-count="7">0</div>
+          <div class="stat-label">Jours/Semaine</div>
+        </div>
+        <div class="stat-item reveal">
+          <div class="stat-number" data-count="98">0</div>
+          <div class="stat-label">% Satisfaction</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <!-- NOUVELLE SECTION: Équipements Premium -->
+  <section id="equipment" class="section dark-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2>Nos Équipements</h2>
+        <p>Du matériel professionnel pour des résultats exceptionnels</p>
+      </div>
+      <div class="equipment-grid">
+        <div class="equipment-item reveal">
+          <div class="equipment-image" style="background-image: url('img/force.avif')"></div>
+          <h3>Zone Force & Puissance</h3>
+          <p>Racks, haltères, bancs de développé et matériel d'haltérophilie professionnel</p>
+        </div>
+        <div class="equipment-item reveal">
+          <div class="equipment-image" style="background-image: url('img/espcar.avif')"></div>
+          <h3>Espace Cardio</h3>
+          <p>Tapis de course, vélos elliptiques, rameurs et vélos spinning dernière génération</p>
+        </div>
+        <div class="equipment-item reveal">
+          <div class="equipment-image" style="background-image: url('img/fonction.webp')"></div>
+          <h3>Training Fonctionnel</h3>
+          <p>Kettlebells, TRX, medecine balls, cordes et zone d'entraînement libre</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2>Témoignages</h2>
+        <p>Des personnalités et membres qui nous font confiance.</p>
+      </div>
+      <div class="testimonials">
+        <div class="testimonial reveal">
+          <div style="display:flex; gap:.8rem; align-items:center;">
+            <div class="eumeu"></div>
+            <div>
+              <div class="name">Eumeu Sène</div>
+              <div class="role">Lutteur</div>
+            </div>
+          </div>
+          <p style="margin-top:.6rem;">« Une ambiance sérieuse et du matériel au top — parfait pour se dépasser. »</p>
+        </div>
+        <div class="testimonial reveal">
+          <div style="display:flex; gap:.8rem; align-items:center;">
+            <div class="fallou"></div>
+            <div>
+              <div class="name">Fallou Faye</div>
+              <div class="role">Athlète</div>
+            </div>
+          </div>
+          <p style="margin-top:.6rem;">« Coaching précis, récupération optimisée et progrès constants. »</p>
+        </div>
+        <div class="testimonial reveal">
+          <div style="display:flex; gap:.8rem; align-items:center;">
+            <div class="cheick"></div>
+            <div>
+              <div class="name">Cheick Fall</div>
+              <div class="role">Bodybuilder</div>
+            </div>
+          </div>
+          <p style="margin-top:.6rem;">« Les programmes sont calibrés pour la performance, rien n'est laissé au hasard. »</p>
+        </div>
+        <div class="testimonial reveal">
+          <div style="display:flex; gap:.8rem; align-items:center;">
+            <div class="bamba"></div>
+            <div>
+              <div class="name">Bamba</div>
+              <div class="role">Membre – remise en forme</div>
+            </div>
+          </div>
+          <p style="margin-top:.6rem;">« J'ai retrouvé la forme et la motivation, dans une salle qui donne envie de revenir. »</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NOUVELLE SECTION: FAQ -->
+  <section id="faq" class="section dark-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2>Questions Fréquentes</h2>
+        <p>Toutes les réponses à vos questions</p>
+      </div>
+      <div class="faq-container">
+        <div class="faq-item reveal">
+          <div class="faq-question">
+            <span>Quels sont les horaires d'ouverture ?</span>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>Nous sommes ouverts du lundi au samedi de 6h à 22h, et le dimanche de 8h à 20h.</p>
+          </div>
+        </div>
+        <div class="faq-item reveal">
+          <div class="faq-question">
+            <span>Proposez-vous des essais gratuits ?</span>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>Oui ! Une séance d'essai gratuite est offerte à tous les nouveaux membres.</p>
+          </div>
+        </div>
+        <div class="faq-item reveal">
+          <div class="faq-question">
+            <span>Y a-t-il un dress code ?</span>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>Une tenue de sport adaptée est requise. Les chaussures de ville sont interdites dans les zones d'entraînement.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta section">
+    <div class="container reveal" style="text-align:center;">
+      <h2>Prêt à commencer ?</h2>
+      <p class="small">Inscris-toi en ligne et récupère ton pass à l'accueil.</p>
+      <a href="contact.html" class="btn">Je m'inscris</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="grid">
+        <div class="card" style="grid-column: span 6;">
+          <div class="body">
+            <h3>Heures d'ouverture</h3>
+            <p class="small">Lun–Sam : 6h–22h • Dim : 8h–20h</p>
+          </div>
+        </div>
+        <div class="card" style="grid-column: span 6;">
+          <div class="body">
+            <h3>Nous suivre</h3>
+            <p class="small"><a href="https://www.instagram.com/complexe_deff_sports/" target="_blank" rel="noopener">Instagram Deff sport </a></p>
+            <p class="small">Contact : <a href="#">76 276 12 12</a></p>
+            <p class="small">Adresse : Rufisque, Zac Mbao, rond-point Sipres</p>
+          </div>
+        </div>
+      </div>
+      <p class="small" style="margin-top:1rem;">© <span id="year"></span> Deff | Sport — Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
